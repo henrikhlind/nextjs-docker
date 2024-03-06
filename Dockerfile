@@ -1,3 +1,5 @@
+ARG CACHEBUST=1
+
 FROM node:18-alpine AS base
 
 # Install dependencies only when needed
